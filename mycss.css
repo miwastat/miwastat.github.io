@@ -1,0 +1,30 @@
+/*
+ *  My CSS class definitions
+ */
+.text-align-left        { text-align: left }
+.text-align-center      { text-align: center }
+.text-align-right       { text-align: right }
+
+.vertical-align-top     { vertical-align: top }
+.vertical-align-middle  { vertical-align: middle }
+.vertical-align-bottom  { vertical-align: bottom }
+
+.float-right            { float: right }
+.float-none             { float: none }
+.padding-bottom-1em     { padding-bottom: 1.0em }
+
+.font-size-medium       { font-size: medium }
+.font-size-large        { font-size: large }
+.font-size-x-large      { font-size: x-large }
+.font-size-xx-large     { font-size: xx-large }
+
+.font-weight-normal     { font-weight: normal }
+.font-weight-bold       { font-weight: bold }
+
+.font-style-italic      { font-style: italic }
+
+.color-red              { color: red }
+.color-brick-red        { color: #9f005f }
+.color-green            { color: green }
+.color-dark-green       { color: #005f00 }
+.color-blue             { color: blue }
