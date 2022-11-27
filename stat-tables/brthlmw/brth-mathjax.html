@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+          "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="keywords"
+          content="MathJax, Tetsuhisa Miwa, Bartholomew">
+    <script>
+     MathJax = {
+         tex: {
+             inlineMath: [['$', '$'], ['\\(', '\\)']]
+         },
+         chtml: {
+             displayAlign: "left",
+             displayIndent: "2em"
+         }
+     };
+    </script>
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+    </script>
+    <title>Bartholomew's tests by MathJax</title>
+    <link rel="icon" href="../../image/favicon.ico">
+  </head>
+
+  <body>
+    <p align="right">
+      <a href="../index.html">
+        Bartholomew's tests for ordered alternatives</a>
+    </p>
+
+    <h2>The null distribution of the modified Bartholomew's test</h2>
+
+    <p>Consider $k$ treatment means $\bar{X}_i$
+      and an estimate $S^2$ of variance:</p>
+
+    \[
+    \begin{align*}
+    &\bar{X}_i~\sim~\mathrm{n.i.i.d.}(\mu,~\sigma^2),\quad
+    (i=1, 2, \cdots, k)
+    \tag{1}\\
+    &S^2~\sim~\sigma^2\,\chi^2(\nu)/\nu.
+    \tag{2}
+    \end{align*}
+    \]
+
+    <p>Define a statistic $\bar{B}$ by</p>
+
+    \[
+    \bar{B} = \max_{\boldsymbol{c}}
+    \frac{\sum c_i\,\bar{X}_i}{S\,\sqrt{\sum c_i^2}},
+    \tag{3}
+    \]
+
+    <p>where the right-hand-side is maximized
+      over all ordered contrasts,</p>
+
+    \[
+    c_1 \leq c_2 \leq \cdots \leq c_k,\quad
+    \sum_{i=1}^k c_i = 0.
+    \tag{4}
+    \]
+
+    <p>The tables give the upper quantiles $\bar{B}(k, \nu; \alpha)$:</p>
+
+    \[
+    \Pr\{\bar{B} \gt \bar{B}(k, \nu; \alpha)\} = \alpha.
+    \tag{5}
+    \]
+  </body>
+</html>
