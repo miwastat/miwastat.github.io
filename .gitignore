@@ -1,2 +1,4 @@
+.gitignore
+
 # Ignore back-up dirs.
 bak/
